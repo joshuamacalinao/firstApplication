@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".whitedwarfstars">
+
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="388dp"
+      android:layout_height="634dp"
+      android:background="#4D000000"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.478"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.48">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="210dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/when_a_star_about_the_size_of_our_sun_or_a_little_larger_has_burnt_all_the_material_it_can_it_collapses_into_a_new_type_of_object_a_kind_of_giant_crystal_supported_by_the_wonders_of_quantum_physics_specifically_the_degeneracy_pressure_of_electrons_rather_than_its_own_heat_the_result_is_a_very_small_star_only_about_the_same_size_as_planet_earth_which_is_very_hot_but_very_faint_this_is_a_white_dwarf_since_these_stars_are_so_small_and_emit_a_lot_of_their_light_in_the_ultraviolet_part_of_the_spectrum_they_can_be_very_hard_to_see_in_our_skies"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="360dp"
+        android:layout_height="130dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/you_ll_have_to_wait_for_the_winter_but_if_you_can_find_the_brightest_star_in_the_sky_sirius_in_the_constellation_of_canis_major_you_ll_be_looking_at_a_white_dwarf_the_bright_star_you_see_is_a_very_large_hot_blue_star_but_orbiting_it_moving_it_around_in_almost_imperceptible_ways_is_a_hidden_white_dwarf_companion"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="360dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="28dp"
+        android:contentDescription="@string/tslogo"
+        android:src="@drawable/whitedwarf"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

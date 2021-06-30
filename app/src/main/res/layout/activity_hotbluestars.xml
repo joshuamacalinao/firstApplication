@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".hotbluestars">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="388dp"
+        android:layout_height="634dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#4D000000"
+        app:layout_constraintVertical_bias="0.48">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="360dp"
+            android:layout_height="115dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/stars_which_are_much_more_massive_than_our_sun_burn_hotter_but_for_much_less_time_living_and_dying_within_a_few_million_years_just_as_a_hot_gas_flame_burns_blue_so_these_stars_show_a_bright_blue_light_and_because_they_re_so_bright_we_can_see_a_lot_of_them_from_the_ground"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.777" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="115dp"
+            android:layout_marginBottom="32dp"
+            android:text="@string/an_example_in_the_sky_is_the_bright_star_spica_in_the_constellation_of_virgo_you_can_find_it_by_looking_for_the_plough_the_big_dipper_and_following_along_the_curve_of_its_handle_if_you_keep_going_you_ll_pick_up_first_arcturus_a_red_giant_described_below_and_then_spica"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_marginBottom="80dp"
+            android:contentDescription="@string/tslogo"
+            android:src="@drawable/bluestar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

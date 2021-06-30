@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".redgiantstars">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="388dp"
+        android:layout_height="634dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="#4D000000"
+        app:layout_constraintVertical_bias="0.48">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="385dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/a_red_giant_is_a_star_that_has_exhausted_the_supply_of_hydrogen_in_its_core_and_has_begun_thermonuclear_fusion_of_hydrogen_in_a_shell_surrounding_the_core_they_have_radii_tens_to_hundreds_of_times_larger_than_that_of_the_sun_however_their_outer_envelope_is_lower_in_temperature_giving_them_a_reddish_orange_hue_despite_the_lower_energy_density_of_their_envelope_red_giants_are_many_times_more_luminous_than_the_sun_because_of_their_great_size_red_giant_branch_stars_have_luminosities_up_to_nearly_three_thousand_times_that_of_the_sun_spectral_types_of_k_or_m_have_surface_temperatures_of_3_000_4_000_k_and_radii_up_to_about_200_times_the_sun_stars_on_the_horizontal_branch_are_hotter_with_only_a_small_range_of_luminosities_around_75_asymptotic_giant_branch_stars_range_from_similar_luminosities_as_the_brighter_stars_of_the_red_giant_branch_up_to_several_times_more_luminous_at_the_end_of_the_thermal_pulsing_phase"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="360dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"
+            android:src="@drawable/redgiant"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:contentDescription="@string/tslogo" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

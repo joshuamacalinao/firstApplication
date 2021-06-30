@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".neutronstarsandblackholes">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="388dp"
+        android:layout_height="634dp"
+        android:background="#4D000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48">
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="225dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/white_dwarfs_aren_t_the_only_type_of_exotic_object_that_s_made_when_stars_collapse_if_a_star_is_about_five_times_the_mass_of_the_sun_the_collapse_when_it_stops_burning_is_sufficient_to_force_electrons_and_protons_in_its_atoms_to_merge_creating_a_neutron_star_made_up_of_neutronium_this_incredibly_dense_material_would_squeeze_a_star_the_mass_of_the_sun_into_a_ball_the_size_of_coventry_and_it_s_also_what_thor_s_famous_hammer_mj_lnir_is_made_of_neutron_stars_are_very_small_dark_objects_which_can_generally_only_be_seen_by_their_effects_on_their_neighbours"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="360dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/stars_more_than_about_eight_times_the_mass_of_the_sun_don_t_stop_there_even_the_quantum_physics_of_neutrons_cannot_stop_their_material_from_collapsing_inwards_and_instead_general_relativity_takes_over_the_stars_collapse_all_the_way_into_a_black_hole_we_can_t_see_any_black_holes_in_our_night_sky_except_by_their_effect_on_other_stars_but_the_galaxy_has_been_shaped_by_one_a_supermassive_black_hole_lurks_in_the_very_centre_of_the_milky_way"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="360dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="4dp"
+            android:contentDescription="@string/tslogo"
+            android:src="@drawable/neutronandblackhole"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.428"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

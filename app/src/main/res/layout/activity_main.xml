@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/homepage_bg"
+        android:orientation="vertical"
+        android:weightSum="15"
+        app:layout_constraintBaseline_toBaselineOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3.4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="280dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="@string/menu"
+                android:textColor="#DA4F5C"
+                android:textSize="40sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/hey_what_would_you_like_to_learn_today"
+                android:textColor="#FF959E"
+                android:textSize="25sp"
+                android:textStyle="bold">
+
+            </TextView>
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="10"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:padding="15dp"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="30dp"
+                android:backgroundTint="#FBBD2F"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp"
+                tools:ignore="RtlHardcoded">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <TextView
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="@string/types_of_stars"
+                        android:textAlignment="center"
+                        android:textColor="#253365"
+                        android:textSize="20sp">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/tslogo"
+                        android:src="@drawable/typesbg" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#E4C9B4"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="@string/known_stars_size"
+                        android:textAlignment="center"
+                        android:textColor="#253365"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:contentDescription="@string/tslogo"
+                        android:src="@drawable/star3" />
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="-20dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#FFFF"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="10dp"
+                    android:orientation="vertical"
+                    tools:ignore="UseCompoundDrawables">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="@string/constellation"
+                        android:textAlignment="center"
+                        android:textColor="#253365"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:contentDescription="@string/tslogo"
+                        android:src="@drawable/constellationbg" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/b4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="-40dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="50dp"
+                android:backgroundTint="#ABA194"
+                app:cardCornerRadius="20dp"
+                app:cardElevation="8dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:text="@string/about"
+                        android:textAlignment="center"
+                        android:textColor="#253365"
+                        android:textSize="20sp"
+                        android:textStyle="bold">
+
+                    </TextView>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

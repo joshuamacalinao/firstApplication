@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFBBD2F"
+    tools:context=".stars7colors">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="388dp"
+        android:layout_height="634dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/solartypestar"
+        app:layout_constraintVertical_bias="0.48">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="360dp"
+            android:layout_height="112dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/a_solar_type_star_has_about_the_same_mass_as_our_sun_and_is_fusing_hydrogen_into_helium_at_its_core_the_result_is_the_familiar_yellow_ish_glow_that_characterises_many_of_the_stars_we_see_in_the_sky_and_a_long_lived_stable_star_with_a_lifetime_of_billions_of_years"
+            android:textColor="#3E3E3E"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.941" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="360dp"
+            android:layout_height="191dp"
+            android:layout_marginBottom="28dp"
+            android:text="@string/the_brightest_solar_type_star_in_the_sky_is_alpha_centauri_which_is_very_close_to_us_alpha_cen_is_actually_a_double_star_system_we_call_a_binary_but_the_brighter_component_is_only_a_little_larger_than_our_own_sun_unfortunately_alpha_cen_is_in_the_southern_hemisphere_in_fact_most_of_the_nearby_sun_like_stars_are_in_the_south_the_ones_in_the_northern_hemisphere_tend_to_be_fainter_but_if_you_can_find_the_constellation_draco_some_of_its_brighter_stars_are_the_solar_type"
+            android:textColor="#3E3E3E"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toTopOf="@+id/textView5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="360dp"
+            android:layout_height="190dp"
+            android:layout_marginBottom="44dp"
+            android:contentDescription="@string/tslogo"
+            android:src="@drawable/solartypeanolog"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="@string/solar_analog"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

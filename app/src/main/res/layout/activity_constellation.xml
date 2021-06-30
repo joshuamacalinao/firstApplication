@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".types_of_stars">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="20sp"
+                android:text="@string/_12_major_constellations"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginRight="5sp"
+            android:columnCount="1"
+            android:rowCount="12">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c1"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66B33F40"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/aries"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c2"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#663B7030"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/taurus"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c3"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66EDD94C"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/gemini"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c4"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66A1A1A1"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/cancer"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c5"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66C39201"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/leo"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c6"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66964B00"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/virgo"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c7"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66FFC0CB"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/libra"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c8"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66000000"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/scorpius"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c9"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66800080"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/sagittarius"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c10"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#66A1A1A1"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/capricornus"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c11"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#660080FF"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/aquarius"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/c12"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_gravity="fill"
+                android:layout_margin="10sp"
+                android:layout_marginLeft="40sp"
+                android:layout_marginRight="40sp"
+                android:backgroundTint="#6690EE90"
+                app:cardCornerRadius="10sp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-light"
+                    android:paddingTop="40sp"
+                    android:paddingBottom="40sp"
+                    android:text="@string/pices"
+                    android:textAlignment="center"
+
+                    android:textColor="#FFFFFF"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
