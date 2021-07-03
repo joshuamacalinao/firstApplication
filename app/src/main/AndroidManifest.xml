@@ -9,7 +9,9 @@
         android:roundIcon="@drawable/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalProject">
-        <activity android:name=".pices"></activity>
+        <activity android:name=".ResultActivity"></activity>
+        <activity android:name=".quizActivity" />
+        <activity android:name=".pices" />
         <activity android:name=".aquarius" />
         <activity android:name=".capricornus" />
         <activity android:name=".sagittarius" />
@@ -84,7 +86,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".about" />
         <activity android:name=".constellation" />
         <activity android:name=".star_size_comparison" />
         <activity android:name=".types_of_stars" />

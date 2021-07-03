@@ -25,7 +25,7 @@
                 android:paddingLeft="15sp"
                 android:paddingTop="20sp"
                 android:paddingRight="15sp"
-                android:text="@string/solar_type_stars"
+                android:text="@string/types_of_stars"
                 android:textAlignment="center"
                 android:textColor="#FFFFFF"
                 android:textSize="30sp" />

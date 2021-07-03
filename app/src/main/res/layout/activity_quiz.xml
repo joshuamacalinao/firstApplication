@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homepage_bg"
+    tools:context=".quizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-light"
+                android:paddingLeft="15sp"
+                android:paddingTop="20sp"
+                android:paddingBottom="30sp"
+                android:paddingRight="15sp"
+                android:text="@string/quiz"
+
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_1_what_is_the_brightest_solar_type_star_in_the_sky"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/answer"
+                android:inputType="text"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_2_what_is_the_biggest_star_today"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_3_what_is_the_fifteenth_brightest_star"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_4_one_of_the_constellations_of_the_zodiac_it_located_in_the_northern_celestial_hemisphere_between_picses_to_the_west_and_taurus_to_the_east"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_5_is_a_constellation_of_the_zodiac_its_vast_bulk_and_main_asterism_viewed_in_most_european_cultures_oer_greco_roman_antiquity_as_a_distant_pair_of_fishes_connected_by_ione_cord_each_thaht_join_at_an_apex"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_6_how_many_sagittaruis_stars_brighter_than_3_00m"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_7_what_is_the_name_of_leo"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_8_how_many_bayer_flams_designation_in_cancer"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_9_how_many_messier_object_in_aqurius"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_10_one_of_the_constellation_of_the_zodiac_and_is_locatesd_in_the_southern_celestial_hemisphere"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_11_is_a_constellation_of_the_zodiac_is_located_in_the_southern_celestial_hemisphere_its_name_latin"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_12_is_one_constellation_of_the_zodiac_second_largest_constellation_in_the_sky"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_13_star_belonging_to_the_smallest_to_largest_star_found_in_the_contellation_of_orion"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_14_what_is_the_smallest_star"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_15_what_star_is_a_red_super_giant_and_pulsating_variable_star"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_16_the_second_smallest_star"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_17_st2_18_is_the"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_18_what_is_the_temperature_of_eta_carinae"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_19_what_is_hu2112"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_20_how_far_eta_carinae_from_earth"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_21_is_r_repolis_star_bigger_than_earth"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_22_the_largest_known_star_in_the_universe_year_2018"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_23_what_is_the_10th_brightest_star"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_24_what_are_the_most_common_stars"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_25_what_is_a_double_star_system_called"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_26_a_stars_which_are_much_more_massive_than_our_sun_burn_hotter_but_for_much_less_time_living_and_dying_within_a_few_million_years"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_27_a_star_that_has_exhausted_the_supply_of_hydrogen_in_its_core_and_has_begun_thermonuclear_fusion_of_hydrogen_in_a_shell_surrounding_the_core_they_have_radii_tens_to_hundreds_of_times_larger_than_that_of_the_sun"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_28_these_stars_are_so_small_and_emit_a_lot_of_their_light_in_the_ultraviolet_part_of_the_spectrum_they_can_be_very_hard_to_see_in_our_skies"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_29_these_stars_are_very_small_dark_objects_which_can_generally_only_be_seen_by_their_effects_on_their_neighbours"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-light"
+                android:paddingTop="30sp"
+                android:paddingBottom="10sp"
+                android:text="@string/_30_the_stellar_classification_is_a_hierarchy_with_solar_twin_being_most_like_the_sun"
+
+
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/input30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="text"
+                android:hint="@string/answer"
+                android:textColor="#FFFFFF"
+                android:textColorHint="@android:color/white" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#3358FF2C"
+                android:onClick="submitButton"
+                android:text="Submit" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

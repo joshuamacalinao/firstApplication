@@ -225,7 +225,7 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:fontFamily="@font/poppins_semibold"
-                        android:text="@string/about"
+                        android:text="Quiz"
                         android:textAlignment="center"
                         android:textColor="#253365"
                         android:textSize="20sp"
